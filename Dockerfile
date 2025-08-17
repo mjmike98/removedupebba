@@ -13,4 +13,3 @@ COPY . .
 
 # Run the bot
 CMD ["node", "index.js"]
-a
