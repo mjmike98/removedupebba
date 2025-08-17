@@ -1,0 +1,414 @@
+[2025-08-16T22:38:16.541Z] [INFO] Configuration initialized successfully
+[2025-08-16T22:38:16.544Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:38:16.690Z] [ERROR] Error registering commands:
+DiscordAPIError[0]: 401: Unauthorized
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async registerCommands (/home/runner/workspace/index.js:84:9)
+    at async startBot (/home/runner/workspace/index.js:112:9)
+[2025-08-16T22:38:16.847Z] [ERROR] Failed to start bot:
+Error [TokenInvalid]: An invalid token was provided.
+    at WebSocketManager.connect (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:139:26)
+    at Client.login (/home/runner/workspace/node_modules/discord.js/src/client/Client.js:229:21)
+    at startBot (/home/runner/workspace/index.js:115:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-08-16T22:38:39.529Z] [INFO] Configuration initialized successfully
+[2025-08-16T22:38:39.532Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:38:39.665Z] [ERROR] Error registering commands:
+DiscordAPIError[0]: 401: Unauthorized
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async registerCommands (/home/runner/workspace/index.js:84:9)
+    at async startBot (/home/runner/workspace/index.js:112:9)
+[2025-08-16T22:38:39.809Z] [ERROR] Failed to start bot:
+Error [TokenInvalid]: An invalid token was provided.
+    at WebSocketManager.connect (/home/runner/workspace/node_modules/discord.js/src/client/websocket/WebSocketManager.js:139:26)
+    at Client.login (/home/runner/workspace/node_modules/discord.js/src/client/Client.js:229:21)
+    at startBot (/home/runner/workspace/index.js:115:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-08-16T22:43:08.146Z] [INFO] Configuration initialized successfully
+[2025-08-16T22:43:08.149Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:43:08.415Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:43:08.476Z] [INFO] Configuration initialized successfully
+[2025-08-16T22:43:08.479Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:43:08.878Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:43:08.878Z] [INFO] Bot is serving 0 guild(s)
+[2025-08-16T22:43:08.879Z] [INFO] Bot status: Enabled
+[2025-08-16T22:43:08.879Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:43:08.879Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:43:08.880Z] [INFO] Bot initialization complete
+[2025-08-16T22:43:08.929Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:43:09.333Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:43:09.333Z] [INFO] Bot is serving 0 guild(s)
+[2025-08-16T22:43:09.334Z] [INFO] Bot status: Enabled
+[2025-08-16T22:43:09.334Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:43:09.334Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:43:09.335Z] [INFO] Bot initialization complete
+[2025-08-16T22:43:15.277Z] [INFO] Configuration initialized successfully
+[2025-08-16T22:43:15.280Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:44:09.041Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:44:09.569Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:44:09.569Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T22:44:09.570Z] [INFO] Bot status: Enabled
+[2025-08-16T22:44:09.570Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:44:09.570Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T22:44:09.570Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T22:44:09.570Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:44:09.571Z] [INFO] Bot initialization complete
+[2025-08-16T22:45:29.053Z] [ERROR] Error executing command status:
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async Object.execute (/home/runner/workspace/commands/status.js:74:9)
+    at async Client.<anonymous> (/home/runner/workspace/index.js:56:9)
+[2025-08-16T22:45:29.156Z] [ERROR] Uncaught exception:
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async Client.<anonymous> (/home/runner/workspace/index.js:65:13)
+[2025-08-16T22:45:41.964Z] [INFO] Duplicate detected: "halo..." by side quest___#9698 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:45:42.140Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#main-quest: "halo"
+[2025-08-16T22:45:42.171Z] [INFO] Duplicate detected: "halo..." by side quest___#9698 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:45:42.336Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#main-quest: "halo"
+[2025-08-16T22:45:42.460Z] [INFO] Duplicate detected: "halo..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T22:45:42.645Z] [INFO] Duplicate detected: "halo..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T22:45:42.726Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "halo"
+[2025-08-16T22:45:42.846Z] [INFO] Duplicate detected: "halo..." by side quest___#9698 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:45:42.953Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "halo"
+[2025-08-16T22:45:43.011Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#main-quest: "halo"
+[2025-08-16T22:45:43.224Z] [INFO] Duplicate detected: "halo..." by side quest___#9698 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:45:43.356Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#main-quest: "halo"
+[2025-08-16T22:45:47.755Z] [INFO] Duplicate detected: "halo..." by side quest___#9698 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:45:47.957Z] [INFO] Duplicate detected: "halo..." by side quest___#9698 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:45:48.088Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#main-quest: "halo"
+[2025-08-16T22:45:48.277Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#main-quest: "halo"
+[2025-08-16T22:48:57.921Z] [INFO] Configuration saved successfully
+[2025-08-16T22:48:57.921Z] [INFO] defallen7093 updated setting logchannel
+[2025-08-16T22:49:35.014Z] [INFO] Configuration saved successfully
+[2025-08-16T22:49:35.014Z] [INFO] defallen7093 updated setting maxduplicates
+[2025-08-16T22:49:40.295Z] [INFO] Duplicate detected: "tooast..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T22:49:40.504Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "tooast"
+[2025-08-16T22:51:51.238Z] [INFO] Configuration saved successfully
+[2025-08-16T22:51:51.238Z] [INFO] defallen7093 updated setting timewindow
+[2025-08-16T22:52:13.237Z] [INFO] Configuration saved successfully
+[2025-08-16T22:52:13.238Z] [INFO] defallen7093 updated setting ratelimit
+[2025-08-16T22:52:20.757Z] [INFO] Duplicate detected: "bisaaa..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T22:52:21.019Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "bisaaa"
+[2025-08-16T22:53:11.526Z] [INFO] Duplicate detected: "bisa..." by defallen7093 in Bebetsjo Bizzare Adventure#main-quest
+[2025-08-16T22:53:11.776Z] [INFO] Deleted duplicate message from defallen7093 (949732253192294450) in Bebetsjo Bizzare Adventure#main-quest: "bisa"
+[2025-08-16T22:58:06.662Z] [INFO] Configuration system initialized successfully
+[2025-08-16T22:58:06.662Z] [INFO] Configuration system initialized successfully
+[2025-08-16T22:58:06.665Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:58:06.665Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:58:06.936Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:58:07.064Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:58:07.362Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:58:07.362Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T22:58:07.363Z] [INFO] Bot status: Enabled
+[2025-08-16T22:58:07.363Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:58:07.363Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T22:58:07.364Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T22:58:07.364Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:58:07.364Z] [INFO] Bot initialization complete
+[2025-08-16T22:58:07.557Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:58:07.557Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T22:58:07.558Z] [INFO] Bot status: Enabled
+[2025-08-16T22:58:07.558Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:58:07.558Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T22:58:07.559Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T22:58:07.559Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:58:07.559Z] [INFO] Bot initialization complete
+[2025-08-16T22:59:32.131Z] [INFO] Configuration system initialized successfully
+[2025-08-16T22:59:32.134Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:59:32.313Z] [INFO] Configuration system initialized successfully
+[2025-08-16T22:59:32.316Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:59:32.399Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:59:32.589Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T22:59:32.780Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:59:32.780Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T22:59:32.781Z] [INFO] Bot status: Enabled
+[2025-08-16T22:59:32.781Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:59:32.782Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T22:59:32.782Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T22:59:32.782Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:59:32.782Z] [INFO] Bot initialization complete
+[2025-08-16T22:59:32.969Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T22:59:32.969Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T22:59:32.970Z] [INFO] Bot status: Enabled
+[2025-08-16T22:59:32.970Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T22:59:32.970Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T22:59:32.970Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T22:59:32.970Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T22:59:32.971Z] [INFO] Bot initialization complete
+[2025-08-16T22:59:59.426Z] [INFO] Configuration system initialized successfully
+[2025-08-16T22:59:59.428Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T22:59:59.670Z] [INFO] Configuration system initialized successfully
+[2025-08-16T22:59:59.673Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:00:03.195Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:00:03.198Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:00:03.690Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:00:04.194Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:00:04.194Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:00:04.195Z] [INFO] Bot status: Enabled
+[2025-08-16T23:00:04.195Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:00:04.195Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:00:04.196Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:00:04.196Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:00:04.196Z] [INFO] Bot initialization complete
+[2025-08-16T23:00:33.206Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:00:33.728Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:00:33.729Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:00:33.729Z] [INFO] Bot status: Enabled
+[2025-08-16T23:00:33.730Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:00:33.730Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:00:33.730Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:00:33.730Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:00:33.730Z] [INFO] Bot initialization complete
+[2025-08-16T23:02:52.745Z] [INFO] Creating new configuration for guild 1406319880830976020
+[2025-08-16T23:02:52.750Z] [INFO] Creating new configuration for guild 1406319880830976020
+[2025-08-16T23:02:52.876Z] [ERROR] Error executing command status:
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async Object.execute (/home/runner/workspace/commands/status.js:75:9)
+    at async Client.<anonymous> (/home/runner/workspace/index.js:56:9)
+[2025-08-16T23:02:52.972Z] [ERROR] Uncaught exception:
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:852:23)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (/home/runner/workspace/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:200:22)
+    at async Client.<anonymous> (/home/runner/workspace/index.js:65:13)
+[2025-08-16T23:03:02.911Z] [INFO] Configuration saved successfully for guild 1406319880830976020
+[2025-08-16T23:03:02.911Z] [INFO] defallen7093 updated setting logchannel in guild 1406319880830976020
+[2025-08-16T23:03:21.933Z] [INFO] Configuration saved successfully for guild 1406319880830976020
+[2025-08-16T23:03:21.933Z] [INFO] defallen7093 updated setting maxduplicates in guild 1406319880830976020
+[2025-08-16T23:03:29.187Z] [INFO] Configuration saved successfully for guild 1406319880830976020
+[2025-08-16T23:03:29.187Z] [INFO] defallen7093 updated setting ratelimit in guild 1406319880830976020
+[2025-08-16T23:03:34.154Z] [INFO] Configuration saved successfully for guild 1406319880830976020
+[2025-08-16T23:03:34.154Z] [INFO] defallen7093 updated setting timewindow in guild 1406319880830976020
+[2025-08-16T23:04:12.431Z] [INFO] Creating new configuration for guild 1406291460319346698
+[2025-08-16T23:04:19.602Z] [INFO] Configuration saved successfully for guild 1406291460319346698
+[2025-08-16T23:04:19.603Z] [INFO] defallen7093 updated setting maxduplicates in guild 1406291460319346698
+[2025-08-16T23:04:27.367Z] [INFO] Configuration saved successfully for guild 1406291460319346698
+[2025-08-16T23:04:27.367Z] [INFO] defallen7093 updated setting ratelimit in guild 1406291460319346698
+[2025-08-16T23:04:32.789Z] [INFO] Configuration saved successfully for guild 1406291460319346698
+[2025-08-16T23:04:32.789Z] [INFO] defallen7093 updated setting timewindow in guild 1406291460319346698
+[2025-08-16T23:04:55.637Z] [INFO] Duplicate detected: "hewo..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T23:04:55.840Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "hewo"
+[2025-08-16T23:05:37.510Z] [INFO] Duplicate detected: "howwe..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T23:05:37.697Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "howwe"
+[2025-08-16T23:05:38.050Z] [INFO] Duplicate detected: "howwe..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:05:38.255Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#side-quest: "howwe"
+[2025-08-16T23:05:38.297Z] [INFO] Duplicate detected: "howwe..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:05:38.410Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#side-quest: "howwe"
+[2025-08-16T23:05:38.521Z] [INFO] Duplicate detected: "howwe..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:05:38.697Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#side-quest: "howwe"
+[2025-08-16T23:07:33.073Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:07:33.077Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:07:33.497Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:07:33.914Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:07:33.915Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:07:33.915Z] [INFO] Bot status: Enabled
+[2025-08-16T23:07:33.916Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:07:33.916Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:07:33.916Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:07:33.916Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:07:33.917Z] [INFO] Bot initialization complete
+[2025-08-16T23:08:09.706Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:08:09.710Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:08:09.746Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:08:09.749Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:08:10.119Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:08:10.549Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:08:10.549Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:08:10.550Z] [INFO] Bot status: Enabled
+[2025-08-16T23:08:10.550Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:08:10.551Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:08:10.551Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:08:10.551Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:08:10.551Z] [INFO] Bot initialization complete
+[2025-08-16T23:08:11.845Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:08:12.351Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:08:12.351Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:08:12.352Z] [INFO] Bot status: Enabled
+[2025-08-16T23:08:12.353Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:08:12.353Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:08:12.353Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:08:12.353Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:08:12.353Z] [INFO] Bot initialization complete
+[2025-08-16T23:10:23.885Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:10:23.888Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:10:24.239Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:10:25.355Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:10:25.355Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:10:25.356Z] [INFO] Bot status: Enabled
+[2025-08-16T23:10:25.356Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:10:25.356Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:10:25.356Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:10:25.357Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:10:25.357Z] [INFO] Bot initialization complete
+[2025-08-16T23:10:59.115Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:10:59.118Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:10:59.173Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:10:59.176Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:10:59.524Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:10:59.562Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:11:00.003Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:11:00.003Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:11:00.004Z] [INFO] Bot status: Enabled
+[2025-08-16T23:11:00.004Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:11:00.004Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:11:00.004Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:11:00.005Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:11:00.005Z] [INFO] Bot initialization complete
+[2025-08-16T23:11:00.059Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:11:00.060Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:11:00.060Z] [INFO] Bot status: Enabled
+[2025-08-16T23:11:00.060Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:11:00.061Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:11:00.061Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:11:00.061Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:11:00.061Z] [INFO] Bot initialization complete
+[2025-08-16T23:13:40.446Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:13:40.449Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:13:40.540Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:13:40.544Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:13:40.874Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:13:40.875Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:13:41.278Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:13:41.279Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:13:41.279Z] [INFO] Bot status: Enabled
+[2025-08-16T23:13:41.280Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:13:41.280Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:13:41.280Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:13:41.280Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:13:41.281Z] [INFO] Bot initialization complete
+[2025-08-16T23:13:41.282Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:13:41.282Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:13:41.283Z] [INFO] Bot status: Enabled
+[2025-08-16T23:13:41.283Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:13:41.283Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:13:41.283Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:13:41.283Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:13:41.284Z] [INFO] Bot initialization complete
+[2025-08-16T23:16:39.947Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:16:39.952Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:16:39.949Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:16:39.953Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:16:40.306Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:16:40.361Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:16:40.744Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:16:40.744Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:16:40.745Z] [INFO] Bot status: Enabled
+[2025-08-16T23:16:40.745Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:16:40.745Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:16:40.745Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:16:40.746Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:16:40.746Z] [INFO] Bot initialization complete
+[2025-08-16T23:16:40.805Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:16:40.805Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:16:40.806Z] [INFO] Bot status: Enabled
+[2025-08-16T23:16:40.806Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:16:40.807Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:16:40.807Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:16:40.807Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:16:40.807Z] [INFO] Bot initialization complete
+[2025-08-16T23:24:35.915Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:24:35.919Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:24:36.223Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:24:36.227Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:24:36.474Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:24:36.745Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:24:36.991Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:24:36.992Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:24:36.994Z] [INFO] Bot status: Enabled
+[2025-08-16T23:24:36.994Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:24:36.994Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:24:36.995Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:24:36.995Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:24:36.995Z] [INFO] Bot initialization complete
+[2025-08-16T23:24:37.159Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:24:37.160Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:24:37.161Z] [INFO] Bot status: Enabled
+[2025-08-16T23:24:37.162Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:24:37.162Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:24:37.163Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:24:37.164Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:24:37.164Z] [INFO] Bot initialization complete
+[2025-08-16T23:26:20.604Z] [INFO] Configuration system initialized successfully
+[2025-08-16T23:26:20.607Z] [INFO] Started refreshing application (/) commands.
+[2025-08-16T23:26:21.090Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-16T23:26:21.540Z] [INFO] Bot is ready! Logged in as RemoveDupe#4372
+[2025-08-16T23:26:21.540Z] [INFO] Bot is serving 2 guild(s)
+[2025-08-16T23:26:21.541Z] [INFO] Bot status: Enabled
+[2025-08-16T23:26:21.541Z] [INFO] Duplicate detection: Enabled
+[2025-08-16T23:26:21.541Z] [INFO] Connected to guild: Bebetsjo Bizzare Adventure (1406291460319346698) with 7 members
+[2025-08-16T23:26:21.542Z] [INFO] Connected to guild: Dummy and Dummier (1406319880830976020) with 5 members
+[2025-08-16T23:26:21.542Z] [INFO] Cache cleanup interval started (30 minutes)
+[2025-08-16T23:26:21.542Z] [INFO] Bot initialization complete
+[2025-08-16T23:35:11.522Z] [INFO] Duplicate detected: "tess..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T23:35:11.544Z] [INFO] Duplicate detected: "tess..." by MAIN QUEST!!!#8893 in Dummy and Dummier#dummy-b
+[2025-08-16T23:35:11.682Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "tess"
+[2025-08-16T23:35:11.695Z] [INFO] Deleted duplicate message from MAIN QUEST!!!#8893 (1406297101784060035) in Dummy and Dummier#dummy-b: "tess"
+[2025-08-16T23:35:12.066Z] [INFO] Duplicate detected: "tess..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:35:12.095Z] [INFO] Duplicate detected: "tess..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:35:12.185Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#side-quest: "tess"
+[2025-08-16T23:35:12.199Z] [ERROR] Error handling duplicate message:
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async GuildMessageManager.delete (/home/runner/workspace/node_modules/discord.js/src/managers/MessageManager.js:267:5)
+    at async Message.delete (/home/runner/workspace/node_modules/discord.js/src/structures/Message.js:926:5)
+    at async handleDuplicate (/home/runner/workspace/events/messageCreate.js:42:9)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:25:17)
+[2025-08-16T23:35:12.200Z] [WARN] Message was already deleted
+[2025-08-16T23:35:12.308Z] [INFO] Duplicate detected: "tess..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:35:12.354Z] [INFO] Duplicate detected: "tess..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:35:12.446Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#side-quest: "tess"
+[2025-08-16T23:35:12.452Z] [ERROR] Error handling duplicate message:
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async GuildMessageManager.delete (/home/runner/workspace/node_modules/discord.js/src/managers/MessageManager.js:267:5)
+    at async Message.delete (/home/runner/workspace/node_modules/discord.js/src/structures/Message.js:926:5)
+    at async handleDuplicate (/home/runner/workspace/events/messageCreate.js:42:9)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:25:17)
+[2025-08-16T23:35:12.453Z] [WARN] Message was already deleted
+[2025-08-16T23:35:12.526Z] [INFO] Duplicate detected: "tess..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:35:12.526Z] [INFO] Duplicate detected: "tess..." by side quest___#9698 in Bebetsjo Bizzare Adventure#side-quest
+[2025-08-16T23:35:12.672Z] [INFO] Deleted duplicate message from side quest___#9698 (1406314105354195106) in Bebetsjo Bizzare Adventure#side-quest: "tess"
+[2025-08-16T23:35:17.376Z] [ERROR] Error handling duplicate message:
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1149:23)
+    at async SequentialHandler.queueRequest (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:980:14)
+    at async _REST.request (/home/runner/workspace/node_modules/@discordjs/rest/dist/index.js:1293:22)
+    at async GuildMessageManager.delete (/home/runner/workspace/node_modules/discord.js/src/managers/MessageManager.js:267:5)
+    at async Message.delete (/home/runner/workspace/node_modules/discord.js/src/structures/Message.js:926:5)
+    at async handleDuplicate (/home/runner/workspace/events/messageCreate.js:42:9)
+    at async Object.execute (/home/runner/workspace/events/messageCreate.js:25:17)
+[2025-08-16T23:35:17.376Z] [WARN] Message was already deleted

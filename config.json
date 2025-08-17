@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "duplicateDetection": {
+    "enabled": true,
+    "timeWindow": 60000,
+    "maxDuplicates": 1,
+    "checkBots": true,
+    "caseSensitive": false,
+    "minMessageLength": 3
+  },
+  "whitelist": {
+    "users": [],
+    "roles": [],
+    "channels": []
+  },
+  "logging": {
+    "enabled": true,
+    "logChannel": "1406409327878869002",
+    "verbose": false
+  },
+  "rateLimit": {
+    "enabled": true,
+    "maxActionsPerMinute": 60
+  }
+}
